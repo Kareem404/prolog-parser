@@ -42,9 +42,10 @@ program: [clause (clause)*] query
 clause: predicate [":-" predicatelst] "."
 query: "?""-" predicatelst "."
 ...
-
+```
 ## 🚀 How to Run
 ### 1️⃣ Install dependencies
+
 ```
 pip install lark regex
 ```
