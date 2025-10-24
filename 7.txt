@@ -1,0 +1,10 @@
+?- a.
+?- a, b(c), 'foo'(d, e).
+a :- b, c(d).
+a(X) :- b(Y, 'foo'(bar, 2)), c(Z, W).
+a(b). c(d, e) :- f(g). ?- h(i, j).
+complex_predicate('string with spaces', another_atom).
+structure_name(Var1, 'complex structure'(NestedVar)).
+num_predicate(1234, 5678). special_chars :- a + b - c / d.
+'atom with special char # and $'.
+long_clause :- 'complex'(Nested('structure', 123), X), another_complex_predicate(Z, 3.14). ?- query(Var, 'literal', 456).
